@@ -1,0 +1,167 @@
+Le framework css utilisée est Axentix :https://useaxentix.com/.
+
+Contexte du site :
+ Airvibes est un site spécialisé dans le domaine du tourisme et qui proposes des destinations idéales à bas prix .
+
+Contenu :
+Vidéo de Miguel Á. Padriñán: https://www.pexels.com/fr-fr/video/ciel-nuages-temps-bleu-6772574/
+Photo de Krivec Ales sur Pexels: https://www.pexels.com/fr-fr/photo/nuages-et-montagne-552789/
+icone : https://www.w3schools.com/icons/tryit.asp?filename=tryicons_awesome
+Brouillon :
+
+    <div class="card-header card-centered">Bienvenue Sur Airvibes </div>
+    <div class="card-content text-centered">
+      <p>Airvibes une compagnie qui vous envoies des bonnes vibes </p>
+    </div>
+  </div>
+
+
+
+
+<div class="grix xs2 md1 lg2 sm6 gutter-xs1" style="padding-top:100px">
+  <div class="col-xs2 orange">box 0</div>
+
+
+
+
+  <div class="pos-xs1 ">
+    <div class="card glassmorphism text-white mx-auto">
+  <div class="card-header text-center font-s9">$10<span class="text-grey text-light-3 font-s3">/ month</span></div>
+  <div class="card-content pt-0">
+    <ul class="font-s3 lh-5">
+      <li>✓ Pick a background</li>
+      <li>✓ Add the .glassmorphism class</li>
+      <li>✓ That's all !</li>
+    </ul>
+  </div>
+  <div class="card-footer pt-0">
+    <button class="btn meadow dark-3 rounded-2 w100 light-shadow-1">Buy now</button>
+  </div>
+</div></div>
+
+
+
+
+  
+  <div class="pos-xs2 ">
+  <div class="card glassmorphism text-white mx-auto">
+  <div class="card-header text-center font-s9">$10<span class="text-grey text-light-3 font-s3">/ month</span></div>
+  <div class="card-content pt-0">
+    <ul class="font-s3 lh-5">
+      <li>✓ Pick a background</li>
+      <li>✓ Add the .glassmorphism class</li>
+      <li>✓ That's all !</li>
+    </ul>
+  </div>
+  <div class="card-footer pt-0">
+    <button class="btn meadow dark-3 rounded-2 w100 light-shadow-1">Buy now</button>
+  </div>
+</div>
+  </div>
+  <div class="pos-xs1  ">
+  <div class="card glassmorphism text-white mx-auto">
+  <div class="card-header text-center font-s9">$10<span class="text-grey text-light-3 font-s3">/ month</span></div>
+  <div class="card-content pt-0">
+    <ul class="font-s3 lh-5">
+      <li>✓ Pick a background</li>
+      <li>✓ Add the .glassmorphism class</li>
+      <li>✓ That's all !</li>
+    </ul>
+  </div>
+  <div class="card-footer pt-0">
+    <button class="btn meadow dark-3 rounded-2 w100 light-shadow-1">Buy now</button>
+  </div>
+</div>
+  </div>
+  <div class="pos-xs2  ">
+  <div class="card glassmorphism text-white mx-auto">
+  <div class="card-header text-center font-s9">$10<span class="text-grey text-light-3 font-s3">/ month</span></div>
+  <div class="card-content pt-0">
+    <ul class="font-s3 lh-5">
+      <li>✓ Pick a background</li>
+      <li>✓ Add the .glassmorphism class</li>
+      <li>✓ That's all !</li>
+    </ul>
+  </div>
+  <div class="card-footer pt-0">
+    <button class="btn meadow dark-3 rounded-2 w100 light-shadow-1">Buy now</button>
+  </div>
+</div>
+  </div>
+
+  
+  
+</div>
+________________________________________________________________________________
+
+ <a class="navbar-link" href="#" data-target="menu-verticale"> Plus</a>
+
+  <!-- Barre de Menu Vericale -->
+<div id="menu-verticale" data-ax="sidenav" class="sidenav shadow-1 sidenav-right orange light-1 shadow-1 ">
+    <div class="sidenav-header">
+      <img class="sidenav-logo dropshadow-1" src="images/Airvibes-t.png" alt="Logo" />
+    </div>
+
+      <a href="index.php" class="sidenav-link text-white ">Accueil</a>
+      <a href="#" class="sidenav-link text-white">Nos voyages </a>
+      <a href="#" class="sidenav-link text-white">Nos conseils/astuces </a>
+      <a href="vues/vue-qsn.php" class="sidenav-link text-white">Qui sommes-nous ?</a>
+      <a href="index-old.php" class="sidenav-link text-white"> Ancienne version </a>
+    
+</div>
+  <!--  -->
+
+  <div class="fab" id="fab-example" data-ax="fab">
+
+  <!-- Here is the fab-trigger -->
+  <button class="btn shadow-1 btn-circle btn-large text-white red light-2" data-target="fab-example">
+   +
+  </button>
+
+  <!-- Here is the fab-menu -->
+  <div class="fab-menu">
+
+  <form action="vues/vue-qsn.php" method="post">
+      <button  type="submit" class="btn shadow-1 btn-circle red light-2 text-white fab-item mb-3" >
+      ?
+      </button>
+  </form>
+
+  <form action="old/index-old.php" method="post">
+    <button class="btn shadow-1 btn-circle text-white red light-2 fab-item mb-3">
+     <\>
+    </button>
+  </form>
+
+  </div>
+</div>
+
+________________________________________________________________________________
+
+ <h4>Ressources utilisées </h4>
+                <button class="btn shadow-1 white rounded-4 text-red light-3" data-target="modal">
+               Télécharger les ressources utilisés 
+                </button>
+
+
+                <div class="modal modal-bouncing white rounded-2 shadow-1" id="modal" data-ax="modal" style="max-width: 400px;">
+  <div class="modal-header text-center pb-1 pt-4">
+    Welcome back <strong>dear</strong>
+  </div>
+
+  <div class="modal-content">
+    <p>test</p>
+  </div>
+
+  <div class="modal-footer d-flex pt-2">
+    <button class="btn btn-small red light-4 text-red rounded-2 ml-auto mr-2" data-target="modal">Cancel</button>
+    <button class="btn btn-small blue rounded-2"> <a href="../note.txt" download="ressources_airvibes">Télécharger</a></button>
+  </div>
+</div>
+
+________________________________________________________________________________
+
+
+      <img src=https://xsgames.co/randomusers/avatar.php?g=male alt="Grover Fermaint" width="50" height="50" class="rounded-2 mr-2">
+              
+ 
